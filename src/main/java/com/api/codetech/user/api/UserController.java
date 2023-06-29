@@ -16,6 +16,7 @@ import java.util.List;
 @RestController
 @Tag(name = "User")
 @RequestMapping("api/v1/users")
+@CrossOrigin
 public class UserController {
 
     @Autowired
